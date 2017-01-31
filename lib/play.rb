@@ -36,3 +36,9 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  puts "Welcome to Tic Tac Toe!"
+9.times do
+turn(board)  
+end
+end
